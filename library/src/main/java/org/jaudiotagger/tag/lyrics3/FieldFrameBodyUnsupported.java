@@ -63,7 +63,7 @@ public class FieldFrameBodyUnsupported extends AbstractLyrics3v2FieldFrameBody
     /**
      * Creates a new FieldBodyUnsupported datatype.
      * @param byteBuffer
-     * @throws org.jaudiotagger.tag.InvalidTagException
+     * @throws InvalidTagException
      */
     public FieldFrameBodyUnsupported(ByteBuffer byteBuffer) throws InvalidTagException
     {

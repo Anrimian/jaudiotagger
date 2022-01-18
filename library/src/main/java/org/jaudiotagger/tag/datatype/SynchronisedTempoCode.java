@@ -18,7 +18,7 @@ import org.jaudiotagger.tag.id3.AbstractTagFrameBody;
 import org.jaudiotagger.tag.id3.valuepair.EventTimingTypes;
 
 /**
- * A single synchronized tempo code. Part of a list of temnpo codes ({@link org.jaudiotagger.tag.datatype.SynchronisedTempoCodeList}), that are contained in
+ * A single synchronized tempo code. Part of a list of temnpo codes ({@link SynchronisedTempoCodeList}), that are contained in
  * {@link org.jaudiotagger.tag.id3.framebody.FrameBodySYTC}
  *
  * @author <a href="mailto:hs@tagtraum.com">Hendrik Schreiber</a>

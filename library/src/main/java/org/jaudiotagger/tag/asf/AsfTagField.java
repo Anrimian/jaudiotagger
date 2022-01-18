@@ -20,12 +20,10 @@ package org.jaudiotagger.tag.asf;
 
 import org.jaudiotagger.audio.asf.data.MetadataDescriptor;
 import org.jaudiotagger.tag.TagField;
-import org.jaudiotagger.tag.asf.AsfFieldKey;
-import org.jaudiotagger.tag.asf.AsfTag;
 
 /**
  * This class encapsulates a
- * {@link org.jaudiotagger.audio.asf.data.MetadataDescriptor}and provides access
+ * {@link MetadataDescriptor}and provides access
  * to it. <br>
  * The metadata descriptor used for construction is copied.
  * 

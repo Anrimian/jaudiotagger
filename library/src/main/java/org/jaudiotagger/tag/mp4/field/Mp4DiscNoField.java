@@ -29,7 +29,7 @@ public class Mp4DiscNoField extends Mp4TagTextNumberField
      * Create new Disc Field parsing the String for the discno/total
      *
      * @param discValue
-     * @throws org.jaudiotagger.tag.FieldDataInvalidException
+     * @throws FieldDataInvalidException
      */
     public Mp4DiscNoField(String discValue) throws FieldDataInvalidException
     {

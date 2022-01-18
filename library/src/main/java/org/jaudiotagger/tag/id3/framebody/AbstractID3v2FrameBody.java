@@ -72,7 +72,7 @@ public abstract class AbstractID3v2FrameBody extends AbstractTagFrameBody
      *
      * @param byteBuffer from where to read the frame body from
      * @param frameSize
-     * @throws org.jaudiotagger.tag.InvalidTagException
+     * @throws InvalidTagException
      */
     protected AbstractID3v2FrameBody(ByteBuffer byteBuffer, int frameSize) throws InvalidTagException
     {

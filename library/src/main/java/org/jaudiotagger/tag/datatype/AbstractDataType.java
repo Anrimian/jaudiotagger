@@ -260,7 +260,7 @@ public abstract class AbstractDataType
      * for non String Objects
      *
      * @param arr
-     * @throws org.jaudiotagger.tag.InvalidDataTypeException
+     * @throws InvalidDataTypeException
      */
     final public void readByteArray(byte[] arr) throws InvalidDataTypeException
     {
@@ -389,7 +389,7 @@ public abstract class AbstractDataType
      *
      * @param arr
      * @param offset
-     * @throws org.jaudiotagger.tag.InvalidDataTypeException
+     * @throws InvalidDataTypeException
      */
     public abstract void readByteArray(byte[] arr, int offset) throws InvalidDataTypeException;
 

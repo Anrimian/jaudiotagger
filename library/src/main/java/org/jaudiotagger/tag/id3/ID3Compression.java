@@ -28,7 +28,7 @@ public class ID3Compression
      * @param decompressedFrameSize
      * @param realFrameSize
      * @return
-     * @throws org.jaudiotagger.tag.InvalidFrameException
+     * @throws InvalidFrameException
      *
      */
     protected static ByteBuffer uncompress(String identifier,String filename, ByteBuffer byteBuffer, int decompressedFrameSize, int realFrameSize) throws InvalidFrameException

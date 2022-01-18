@@ -467,7 +467,7 @@ public class MPEGFrameHeader
 
     /**
      * Set the version of this frame as an int value (see constants)
-     * @throws org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
+     * @throws InvalidAudioFrameException
      */
     private void setVersion() throws InvalidAudioFrameException
     {
@@ -506,7 +506,7 @@ public class MPEGFrameHeader
 
     /**
      * Get the setBitrate of this frame
-     * @throws org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
+     * @throws InvalidAudioFrameException
      */
     private void setBitrate() throws InvalidAudioFrameException
     {
@@ -523,7 +523,7 @@ public class MPEGFrameHeader
 
     /**
      * Set the Mpeg channel mode of this frame as a constant (see constants)
-     * @throws org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
+     * @throws InvalidAudioFrameException
      */
     private void setChannelMode() throws InvalidAudioFrameException
     {
@@ -537,7 +537,7 @@ public class MPEGFrameHeader
 
     /**
      * Get the setEmphasis mode of this frame in a string representation
-     * @throws org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
+     * @throws InvalidAudioFrameException
      */
     private void setEmphasis() throws InvalidAudioFrameException
     {
@@ -561,7 +561,7 @@ public class MPEGFrameHeader
 
     /**
      * Get the layer version of this frame as a constant int value (see constants)
-     * @throws org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
+     * @throws InvalidAudioFrameException
      */
     private void setLayer() throws InvalidAudioFrameException
     {
@@ -576,7 +576,7 @@ public class MPEGFrameHeader
 
     /**
      * Sets the string representation of the mode extension of this frame
-     * @throws org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
+     * @throws InvalidAudioFrameException
      */
     private void setModeExtension() throws InvalidAudioFrameException
     {
@@ -601,7 +601,7 @@ public class MPEGFrameHeader
 
     /**
      * set the sampling rate in Hz of this frame
-     * @throws org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
+     * @throws InvalidAudioFrameException
      */
     private void setSamplingRate() throws InvalidAudioFrameException
     {
@@ -815,7 +815,7 @@ public class MPEGFrameHeader
 
     /**
      * Hide Constructor
-     * @throws org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
+     * @throws InvalidAudioFrameException
      */
     private MPEGFrameHeader() throws InvalidAudioFrameException
     {

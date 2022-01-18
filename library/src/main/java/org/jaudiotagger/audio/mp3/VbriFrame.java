@@ -122,7 +122,7 @@ public class VbriFrame
      * this is a VBRIFrame
      *
      * @return
-     * @throws org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
+     * @throws InvalidAudioFrameException
      *
      */
     public static VbriFrame parseVBRIFrame(ByteBuffer header) throws InvalidAudioFrameException

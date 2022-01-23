@@ -16,4 +16,14 @@
 #   public *;
 #}
 
--dontshrink
+-keep class org.jaudiotagger.test.**{*;}
+-keep class org.jaudiotagger.fix.**{*;}
+-keep class org.jaudiotagger.audio.mp4.**{*;}
+-keep class org.jaudiotagger.tag.datatype.**{*;}
+-keep class org.jaudiotagger.tag.**{*;}
+-keep class org.jaudiotagger.tag.asf.**{*;}
+-keep class org.jaudiotagger.tag.flac.**{*;}
+-keep class org.jaudiotagger.logging.**{*;}
+-keep class org.jaudiotagger.tag.vorbiscomment.**{*;}
+-keep class org.jaudiotagger.tag.id3.framebody.** { *; }
+-keepnames class org.jaudiotagger.tag.id3.framebody.** { *; }
